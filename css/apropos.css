@@ -1,0 +1,31 @@
+body{
+    padding-top: 4.3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+#top{
+    margin-top: 2em;
+}
+
+.nav-link:hover{
+    color: #004d00!important;
+} 
+
+h2, h3, h4{
+    color: #004d00;
+}
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+#col {
+    column-count: 2;
+  }
+
+  @media (max-width: 40em){
+      #col{
+          column-count: 1;
+      }
+  }
